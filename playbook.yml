@@ -1,6 +1,6 @@
 ---
 - name: "deploy Odoo with a role"
-  hosts: dev
+  hosts: localhost
   become: true
   roles:
     - docker_role
